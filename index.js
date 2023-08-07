@@ -14,9 +14,7 @@ app.set('port', PORT);
 
 // Add your middleware
 // app.use(express.json());
-app.use(cors({
-  origin:'http://localhost:5173'
-}))
+app.use(cors())
 app.use(bodyParser.json())
 
 app.get('/', (req, res) => {
@@ -25,7 +23,7 @@ app.get('/', (req, res) => {
   });
 });
 
-await mongoose.connect('\mongodb://127.0.0.1:27017/destination');
+await mongoose.connect('mongodb+srv://deleoncyriljohn21:GuCzUHeLLKZHiQqW@cluster0.af4ssbg.mongodb.net/destination?retryWrites=true&w=majority');
 
 app.get('/destination', async (req,res)=> {
 
