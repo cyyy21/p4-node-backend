@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Cebu",
+    "image": "https://i1.wp.com/awesome.blog/wp-content/uploads/2018/02/26656856948_98bcb3dbbb_o-1.jpg?fit=2000%2C1125",
+    "description": "Discover the beauty of Cebu."
+  },
+
+  {
+    "name": "Boracay",
+    "image": "boracay.jpg",
+    "description": "Experience the paradise of Boracay."
+  },
+  {
+    "name": "Bohol",
+    "image": "bohol.jpg",
+    "description": "Explore the wonders of Bohol."
+  },
+  {
+    "name": "Palawan",
+    "image": "palawan.jpg",
+    "description": "Immerse yourself in the natural beauty of Palawan."
+  }
+]
